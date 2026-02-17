@@ -1,0 +1,40 @@
+{
+  "name": "yt-analytic",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive YouTube Video Analytics Dashboard with AI-powered sentiment analysis, NER, and advanced filtering",
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/yt-analytic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/yt-analytic.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "compromise": "^14.14.5",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "recharts": "^2.12.2",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.1.4"
+  }
+}

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-youtube-red: #FF0000;
+  --color-youtube-dark: #282828;
+  --color-youtube-light: #F9F9F9;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100;
+  }
+}
+
+@utility btn-primary {
+  @apply bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+}
+
+@utility btn-secondary {
+  @apply bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded-lg transition-colors duration-200 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200;
+}
+
+@utility card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 dark:bg-gray-900 dark:border-gray-800;
+}
+
+@utility input-field {
+  @apply w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-red-500 focus:ring-2 focus:ring-red-200 outline-none transition-all duration-200 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-100 dark:focus:border-red-500 dark:focus:ring-red-900;
+}
