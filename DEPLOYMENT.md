@@ -30,7 +30,7 @@ This will:
 - Build the production bundle
 - Create optimized chunks (vendor, charts, nlp)
 - Deploy to `gh-pages` branch
-- Make the site available at: `https://yourusername.github.io/yt-analytic/`
+- Make the site available at: `https://ErVijayRaghuwanshi.github.io/yt-analytic/`
 
 #### 4. Enable GitHub Pages
 1. Go to repository Settings → Pages
@@ -56,7 +56,7 @@ This will:
 
 ### Post-Deployment
 
-1. Visit your site: `https://yourusername.github.io/yt-analytic/`
+1. Visit your site: `https://ErVijayRaghuwanshi.github.io/yt-analytic/`
 2. Test all features:
    - Search and trending videos
    - Video analytics
